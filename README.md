@@ -1,5 +1,5 @@
 # raremagic
-A python script inspired from omwllf metaprogramming to create two morrowind mods: learnable scrolls and no spells for sale
+A python script inspired from omwllf metaprogramming to create two morrowind mods: scribe scrolls and no spells for sale
 
 Currently it creates two omwaddons: no\_spells\_for\_sale and scribe\_scrolls.
 
