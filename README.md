@@ -21,9 +21,9 @@ Then, [install your mods in the OpenMW way](https://wiki.openmw.org/index.php?ti
 
 Make sure to start the launcher and enable all the appropriate `.esm`, `.esp`, and `.omwaddon` files. Drag them around to the appropriate load order.
 
-Then, run `raremagic.py` from a command line (Terminal in OS X, Command Prompt in Windows, etc). This should create a new `.omwaddon` module, and give you instructions on how to enable it.
+Then, run `raremagic.py` from a command line (Terminal in OS X, Command Prompt in Windows, etc). This should create two new `.omwaddon` modules.
 
-Open the Launcher, drag the new module to the bottom (it should be loaded near last, it won't interfere with owmllf), and enable it.
+Open the Launcher, drag the new modules to the bottom (they should be loaded near last, and won't interfere with owmllf), and enable them.
 
 Finally, start OpenMW.
 
