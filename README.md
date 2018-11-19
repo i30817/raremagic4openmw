@@ -23,7 +23,7 @@ Make sure to start the launcher and enable all the appropriate `.esm`, `.esp`, a
 
 Then, run `raremagic.py` from a command line (Terminal in OS X, Command Prompt in Windows, etc). This should create two new `.omwaddon` modules.
 
-Open the Launcher, drag the new modules to the bottom (they should be loaded near last, and won't interfere with owmllf), and enable them.
+Open the Launcher, drag the new modules to the bottom (they should be loaded near last, and won't interfere with omwllf), and enable them.
 
 Finally, start OpenMW.
 
