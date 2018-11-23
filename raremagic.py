@@ -387,7 +387,7 @@ def main(cfg, outmoddir):
     magic_scroll_names = [ x['NAME'] for x in magic_scrolls ]
     magic_scroll_names.append('random_scroll_all')
     for npc in rnpcs:
-        if 'AIDT' not in npc and 'DELE' in npc:
+        if 'AIDT' not in npc or 'DELE' in npc:
             continue
 
         add = False
