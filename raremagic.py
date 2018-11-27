@@ -120,7 +120,9 @@ def packPaddedString(s, l):
         return bs + bytes(l - len(bs))
 
 def parseString(ba):
-    i = ba.find(0)
+    i = ba.find(0) # find first \0
+    if i == -1:
+        i = len(ba)
     return ba[:i].decode(encoding='ascii', errors='ignore')
 
 def parseNum(ba):
